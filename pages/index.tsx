@@ -5,6 +5,7 @@ import styles from '../styles/Home.module.css'
 // import { Header } from "../components/Header"
 import Header from '../components/Header'
 import Manualheader from '../components/Manualheader'
+import LotteryEntrance from '../components/LotteryEnatrance'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -18,6 +19,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Manualheader/>
+      <LotteryEntrance/>
      hello
     </>
   )
